@@ -27,10 +27,10 @@ let package = Package(
             ],
             path: "./App/App",
             resources: [
-                .process("./public"),
+                .copy("./public"),
                 .process("./capacitor.config.json"),
                 .process("./Assets.xcassets"),
-            ],
+            ]
         )
     ]
 )
