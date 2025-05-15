@@ -29,6 +29,7 @@ let package = Package(
             resources: [
                 .process("./public"),
                 .process("./capacitor.config.json"),
+                .process("./Assets.xcassets"),
             ],
         )
     ]
