@@ -26,6 +26,10 @@ let package = Package(
                 .product(name: "CapApp-SPM", package: "CapApp-SPM")
             ],
             path: "./App/App",
+            resources: [
+                .process("./public"),
+                .process("./capacitor.config.json"),
+            ],
         )
     ]
 )
